@@ -21,10 +21,10 @@ sudo yum install libjpeg-devel libpng-devel libtiff-devel zlib-devel
 ```sh
 cd ~/libs
 mkdir leptonica && cd leptonica
-wget http://www.leptonica.com/source/leptonica-1.73.tar.gz
-tar -zxvf leptonica-1.73.tar.gz
-rm leptonica-1.73.tar.gz
-cd leptonica-1.73
+wget http://www.leptonica.com/source/leptonica-1.83.0.tar.gz
+tar -zxvf leptonica-1.83.0.tar.gz
+rm leptonica-1.83.0.tar.gz
+cd leptonica-1.83.0
 ./configure
 make
 sudo make install
